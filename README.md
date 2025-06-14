@@ -1,4 +1,4 @@
-# Dummy Co. Recipe Retriever App 🥡
+# Dummy Co. Recipe Retriever App 🥡 🍕
 
 ## TL;DR
 
