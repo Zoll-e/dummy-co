@@ -3,7 +3,7 @@
     "magic":"pnpm install:dependencies && pnpm build && pnpm start",
     "install:dependencies":"pnpm --prefix frontend install; pnpm --prefix backend install",
     "build":"pnpm --prefix frontend run build; pnpm --prefix backend run build",
-    "start": "concurrently \"pnpm --prefix frontend preview\" \"pnpm --prefix backend  start\"",
+    "start": "concurrently \"pnpm --prefix frontend preview --open\" \"pnpm --prefix backend  start\"",
     "dev": "concurrently \"pnpm --prefix frontend run dev\" \"pnpm --prefix backend run dev\""
   },
   "devDependencies": {

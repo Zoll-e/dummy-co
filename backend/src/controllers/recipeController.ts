@@ -24,19 +24,10 @@ export const logRecipesAsTable = async (req: Request, res: Response) => {
   try {
     console.table(
       req.body.recipes.map((r: Recipe) => {
-        const {
-          id,
-          image,
-          ingredients,
-          tags,
-          mealType,
-          reviewCount,
-          userId,
-          ...rest
-        } = r;
+        const { id, image, tags, mealType, reviewCount, userId, ...rest } = r;
         return {
           ...rest,
-          ingredients: ingredients?.length ?? 0,
+          ingredients: r.ingredients?.length ?? 0,
           instructions: r.instructions?.length ?? 0,
         };
       })
