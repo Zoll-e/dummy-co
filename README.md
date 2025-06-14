@@ -50,7 +50,7 @@ pnpm run dev
 
 ## Used Technologies
 
-- ExpressJs
+- ExpressJs (MVCish pattern)
 - React (Vite)
 - Tailwind
 
