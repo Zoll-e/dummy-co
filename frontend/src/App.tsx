@@ -1,14 +1,14 @@
-import './App.css'
-import { RecipesList } from './RecipesList'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import RecipesList from "./components/RecipesList";
 
 function App() {
-  
-
   return (
     <>
-  <RecipesList />
+      <Navbar />
+      <RecipesList />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
