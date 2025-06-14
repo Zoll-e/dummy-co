@@ -12,16 +12,14 @@ pnpm run magic
 
 This application consists of two apps — an expressJs backend and a React frontend — plus a shared types folder.
 
-The backend fetches data from [dummyjson.com](https://dummyjson.com ), the section I chose: recipes — because I genuinely love cooking 🍳.
+The backend fetches data from [dummyjson.com](https://dummyjson.com), the section I chose: recipes — because I genuinely love cooking 🍳.
 
 The frontend then displays the fetched recipes with a few properties. It also includes two buttons:
 
-* One logs the recipe data to the backend console as a nicely formatted, stringified JSON.
+- One logs the recipe data to the backend console as a nicely formatted, stringified JSON.
 
-* The other logs a cleaner version in a table format using console.table, where I omitted some properties for readability.(Honestly, I really enjoyed having a good excuse to finally use `console.table`!)
+- The other logs a cleaner version in a table format using console.table, where I omitted some properties for readability.(Honestly, I really enjoyed having a good excuse to finally use `console.table`!)
 
-
- 
 ## Commands
 
 > Install dependencies in back- and frontend
