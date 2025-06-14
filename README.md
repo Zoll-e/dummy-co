@@ -54,6 +54,10 @@ pnpm run dev
 - React (Vite)
 - Tailwind
 
+## Disclaimer
+
+I've tried to keep my approach simple, so I didn’t use popular libraries like TanStack Query or set up a monorepo.
+
 ## Assignment
 
 - [x] Use https://dummyjson.com for dummy JSON data. Use a section of your choosing under “Top Resources” to fetch and display.
