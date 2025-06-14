@@ -44,9 +44,7 @@ function RecipesList() {
   return (
     <div className="mx-auto w-[80%] max-w-7xl  py-15">
       <div className="my-6 left-0 flex md:flex-row  gap-4 flex-col rounded-2xl justify-between  items-center p-4 bg-gray-100">
-        <h1
-          className="text-2xl font-bold text-gray-900 md:text-left text-center mb-4 md:mb-0 md:w-auto w-full md:grow"
-        >
+        <h1 className="text-2xl font-bold text-gray-900 md:text-left text-center mb-4 md:mb-0 md:w-auto w-full md:grow">
           recipes
         </h1>
         <div className="flex md:flex-row gap-4 flex-col">
@@ -61,8 +59,8 @@ function RecipesList() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4 gap-4">
-        {recipes.map((r, index) => (
-          <RecipeCard recipe={r} key={index} />
+        {recipes.map((r) => (
+          <RecipeCard recipe={r} key={r.id} />
         ))}
       </div>
       <Snackbar />

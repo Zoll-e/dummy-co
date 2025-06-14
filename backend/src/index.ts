@@ -11,5 +11,5 @@ app.use("/", healthCheck);
 app.use("/recipes", recipeRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.info(`Server is running on http://localhost:${PORT}`);
 });
